@@ -1,0 +1,88 @@
+
+    body{
+        background-image: url("https://images5.alphacoders.com/104/1046568.jpg"); 
+        background-size:cover;
+        
+    } 
+.container{  
+    background-color: rgb(186, 252, 160); 
+    text-align: center; 
+    width:500px;
+    height:200px; 
+    justify-content: center; 
+    margin-left: 30%;
+
+    
+
+
+}
+        
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    border:5px solid green; 
+    background-color:green;
+}   
+h1{
+    margin-top:100px;
+    color:white;
+} 
+p{
+    color:white;
+}
+h2{
+    text-align:center;
+}
+li{
+    float:right;
+}
+li a{
+    display:block;
+    color:black;
+    padding:10px; 
+    text-align:center;
+    padding:14px 16px;
+    text-decoration: none; 
+    background-color: green;
+} 
+ul{
+    position: fixed;
+    top:0%;
+    width:100%;
+}
+
+li {
+    border-right:1px solid #bbb;
+}  
+.h{
+    border:5px outset black;
+    background-color:black; 
+    text-align: center;
+} 
+
+.luffy{
+     border-width: 5px;
+     border-style: solid;
+     margin:5%;
+     display: inline-block;
+}
+.Zoro{
+     border-width: 5px;
+     border-style: solid;
+     margin:5%;
+     display: inline-block;
+}
+.sanji{
+     border-width: 5px;
+     border-style: solid;
+     margin:5%;
+     display: inline-block;
+}
+.chopper{
+    border-width: 5px;
+    border-style: solid;
+    margin:5%;
+    display: inline-block;
+}

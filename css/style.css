@@ -1,0 +1,67 @@
+#tables{                                 /*id selector*/
+    background-color:black; 
+    color:rgb(108, 203, 108); 
+    margin:10%;
+
+}   
+tbody,tfoot::first-line{            /* pseudo selector*/
+    color:red;
+}
+a{  
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+}
+a:hover{
+    color:blue;
+    text-shadow:2px 3px green;
+} 
+
+a:link{
+    color:pink;
+}
+
+a:visited{
+    color:red;
+}
+
+.names{                                   /* class selector*/
+    text-align: center;
+    margin:10px 20px 10px 30px; 
+    padding: 5px 10px 10px 20px;
+    background-color: greenyellow;
+    background-image: linear-gradient(red,green);
+}
+
+p{                                                      /* tag selector*/
+    background-color:green;
+    background-image: linear-gradient(red,pink); 
+    margin:20%;
+    padding:10%;
+} 
+
+h1{                                         /* tag selector*/
+    text-align: center;
+    text-shadow: 2px 3px 1px red;
+}
+
+p::first-line{                                             /* element selector*/
+    background-color: blueviolet; 
+    background-image: linear-gradient(red,green); 
+    background-position: center;
+} 
+
+div>h2{
+    background-color: brown; 
+    text-align:
+} 
+
+.selector{ 
+    font-size: 50px;
+    align-items: center;
+}
+
+
+
+
+
